@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LifeTile</string>
+    <string name="title_activity_scheduling">Scheduling</string>
 </resources>
