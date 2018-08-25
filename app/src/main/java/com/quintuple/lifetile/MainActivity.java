@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
         final Fragment rewardsFragment = new RewardsFragment();
         final Fragment profileFragment = new ProfileFragment();
 
+        getSupportFragmentManager().beginTransaction().add(R.id.container, rpgFragment).commit();
+
         final FragmentManager fragmentManager = getSupportFragmentManager();
-
-
 
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
