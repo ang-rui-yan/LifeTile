@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
                 switch (item.getItemId()) {
                     case R.id.nav_activities:
                         fragmentTransaction.replace(R.id.container, activitiesFragment).commit();
