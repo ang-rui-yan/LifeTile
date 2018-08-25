@@ -11,5 +11,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:src="@drawable/schedule"
+        android:layout_margin="20dp"
         />
 </android.support.design.widget.CoordinatorLayout>
