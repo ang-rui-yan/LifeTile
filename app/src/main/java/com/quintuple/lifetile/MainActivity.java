@@ -18,14 +18,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.btmNavBar);
-
-        final FragmentManager fragmentManager = getSupportFragmentManager();
+        BottomNavigationBarHelper.disableShiftMode(bottomNavigationView);
 
         final Fragment activitiesFragment = new ActivitiesFragment();
         final Fragment scheduleFragment = new ScheduleFragment();
         final Fragment rpgFragment = new RPGFragment();
         final Fragment rewardsFragment = new RewardsFragment();
         final Fragment profileFragment = new ProfileFragment();
+
+        final FragmentManager fragmentManager = getSupportFragmentManager();
+
 
 
         bottomNavigationView.setOnNavigationItemSelectedListener(
