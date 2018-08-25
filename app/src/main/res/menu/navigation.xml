@@ -3,27 +3,27 @@
 
     <item
         android:id="@+id/nav_activities"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/activities"
         android:title="Activities"/>
 
     <item
         android:id="@+id/nav_schedule"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/schedule"
         android:title="Schedule"/>
 
     <item
         android:id="@+id/nav_rpg"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/rpg"
         android:title="RPG"/>
 
     <item
         android:id="@+id/nav_rewards"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/schedule"
         android:title="Rewards"/>
 
     <item
         android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/user"
         android:title="Profile"/>
 
 </menu>
